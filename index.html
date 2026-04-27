@@ -8,6 +8,18 @@
   <meta property="og:title" content="Profit Margin Calculator — Free AU Business Tool">
   <meta property="og:description" content="Calculate your gross profit and profit margin instantly. Free tool for Australian small businesses.">
   <meta property="og:type" content="website">
+  <!-- Schema.org JSON-LD Structured Data (NMA-554) -->
+  <script type="application/ld+json">
+  { "@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Profit Margin Calculator", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "offers": { "@type": "Offer", "price": "0", "priceCurrency": "AUD", "name": "Free" }, "description": "Free profit margin calculator for Australian businesses. Calculate gross profit and profit margin with industry benchmarks.", "url": "https://marketingai-profit-margin-calculator.vercel.app/", "provider": { "@type": "Organization", "name": "MarketingAI", "url": "https://marketing-ai-psi-nine.vercel.app/" }, "keywords": "profit margin, gross profit, net profit, business calculator", "areaServed": { "@type": "Country", "name": "Australia" } }
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2Q8MGZ47BC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2Q8MGZ47BC');
+  </script>
   <!-- Google AdSense -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7076137753154472"
       crossorigin="anonymous"></script>
@@ -387,6 +399,17 @@
       margin-top: 2px;
     }
 
+    .howto-list, .benchmark-list, .tips-list {
+      margin: 16px 0 20px 20px;
+      color: #444;
+      font-size: 0.95rem;
+    }
+
+    .howto-list li, .benchmark-list li, .tips-list li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+
     footer {
       background: #1a1a2e;
       color: rgba(255,255,255,0.6);
@@ -499,6 +522,34 @@
     <p>COGS (Cost of Goods Sold) includes only direct costs: raw materials, direct labour, manufacturing costs, or contractor costs for service businesses. It does not include operating expenses like rent, salaries of non-production staff, or marketing spend — those are deducted lower in your P&amp;L.</p>
 
     <p>A higher gross margin means more money is available to cover operating costs and generate net profit. For Australian SMBs, keeping a close eye on gross margin is essential — especially as input costs (materials, wages, freight) increase.</p>
+
+    <h2 style="margin-top:28px; font-size:1.2rem;">How to Calculate Gross Margin</h2>
+    <ol class="howto-list">
+      <li><strong>Identify revenue:</strong> Use total revenue from sales (excluding GST if registered).</li>
+      <li><strong>Calculate direct costs:</strong> Include materials, direct labour, contractors, and delivery costs.</li>
+      <li><strong>Apply the formula:</strong> Subtract COGS from revenue, divide by revenue, multiply by 100.</li>
+      <li><strong>Track over time:</strong> Monitor monthly to spot trends in pricing or cost pressure.</li>
+      <li><strong>Compare to benchmarks:</strong> Check figures against industry standards below.</li>
+    </ol>
+
+    <h2 style="margin-top:28px; font-size:1.2rem;">What Is a Healthy Gross Margin?</h2>
+    <p>The answer depends on your industry, but use these guidelines:</p>
+    <ul class="benchmark-list">
+      <li><strong>Below 20%:</strong> Tight margins — review pricing and direct costs immediately.</li>
+      <li><strong>20–40%:</strong> Acceptable for product/retail businesses, tight for services.</li>
+      <li><strong>40–60%:</strong> Healthy for most service businesses.</li>
+      <li><strong>Above 60%:</strong> Excellent — strong pricing power and controlled costs.</li>
+    </ul>
+    <p>Remember: gross margin is different from net profit. After operating expenses, typical net margins for Australian SMBs are 5–15%.</p>
+
+    <h2 style="margin-top:28px; font-size:1.2rem;">How to Improve Gross Margin</h2>
+    <ul class="tips-list">
+      <li><strong>Review pricing:</strong> Raise prices if margins are below industry average.</li>
+      <li><strong>Renegotiate supplier costs:</strong> Volume discounts or alternative suppliers can reduce material costs.</li>
+      <li><strong>Streamline delivery:</strong> Look for efficiency in how you deliver the service.</li>
+      <li><strong>Bundle services:</strong> Package offerings to increase average order value.</li>
+      <li><strong>Reduce waste:</strong> Better inventory management reduces spoilage and waste.</li>
+    </ul>
 
     <h2 style="margin-top:28px; font-size:1.2rem;">AU Gross Margin Benchmarks by Industry</h2>
     <p>Indicative gross margin benchmarks for Australian small and medium businesses. Actual figures vary by business model, pricing strategy, and scale.</p>
