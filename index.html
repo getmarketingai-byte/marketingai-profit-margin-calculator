@@ -603,6 +603,7 @@
   }
 
   function calculate() {
+    if (typeof gtag === "function") { gtag("event", "calculator_submit", {calculator_name: "profit_margin_calculator", page_title: document.title}); }
     const revenue = parseFloat(document.getElementById('revenue').value);
     const cogs = parseFloat(document.getElementById('cogs').value);
 
